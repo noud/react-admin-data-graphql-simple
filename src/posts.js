@@ -1,6 +1,16 @@
 import React from 'react';
-import { Edit, SimpleForm, DisabledInput, TextInput } from 'react-admin';
+import { SimpleForm, TextInput } from 'react-admin';
+import { Create } from 'react-admin';
+import { Edit, DisabledInput } from 'react-admin';
 import { List, Datagrid, TextField } from 'react-admin';
+
+export const PostCreate = props => (
+    <Create {...props}>
+        <SimpleForm>
+            <TextInput source="title" />
+        </SimpleForm>
+    </Create>
+);
 
 export const PostEdit = props => (
     <Edit {...props}>
