@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import buildGraphQLProvider from 'ra-data-graphql-simple';
 import { Admin, Resource } from 'react-admin';
-// import { Admin, Resource, Delete } from 'react-admin';
 
 import { PostCreate, PostEdit, PostList } from './posts';
 
