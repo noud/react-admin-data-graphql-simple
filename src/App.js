@@ -4,10 +4,8 @@ import { Admin, Resource } from 'react-admin';
 // import { Admin, Resource, Delete } from 'react-admin';
 
 // import { PostCreate, PostEdit, PostList } from './posts';
-import { PostList } from './posts';
+import { PostEdit, PostList } from './posts';
 const PostCreate =  null;
-const PostEdit =  null;
-// const PostList = null;
 
 const Delete =  null;
 
