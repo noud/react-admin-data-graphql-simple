@@ -1,7 +1,7 @@
 import React from 'react';
 import { SimpleForm, TextInput } from 'react-admin';
 import { Create } from 'react-admin';
-import { Edit, DisabledInput } from 'react-admin';
+import { Edit } from 'react-admin';
 import { List, Datagrid, TextField } from 'react-admin';
 
 export const PostCreate = props => (
@@ -15,7 +15,7 @@ export const PostCreate = props => (
 export const PostEdit = props => (
     <Edit {...props}>
         <SimpleForm>
-            <DisabledInput source="id" />
+            <TextInput source="id" disabled />
             <TextInput source="title" />
         </SimpleForm>
     </Edit>

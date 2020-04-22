@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "graphql": "^14.5.8",
-    "ra-data-graphql-simple": "^2.9.8",
-    "react": "^16.12.0",
+    "graphql": "^15.0.0",
+    "ra-data-graphql-simple": "^3.2.2",
+    "react": "^16.13.0",
     "react-admin": "^2.9.9",
-    "react-dom": "^16.12.0",
-    "react-scripts": "^3.3.0"
+    "react-dom": "^16.13.0",
+    "react-scripts": "3.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
